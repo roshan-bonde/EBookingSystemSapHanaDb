@@ -1,0 +1,3 @@
+INSERT INTO public.flight(
+	baggage_allowance, date_of_journey, flight_duration, price, airline_name, arrival_terminal, arrival_time, departure_terminal, departure_time, flight_class, flight_number, flight_type, from_city, id, in_flight_services, mid_stations, seat_configuration, to_city)
+	VALUES (10, current_timestamp, 120, 6000, 'Indigo Airlines', 'Nagpur Terminal 1', current_timestamp, 'IGI terminal 5', current_timestamp, 'Economy', 11234, 'FLIGHT', 'Nagpur', 1, 'WiFi, AC, Pantry', '', '3+3', 'Delhi');
