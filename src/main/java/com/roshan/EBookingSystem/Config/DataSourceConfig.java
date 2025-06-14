@@ -12,7 +12,7 @@ public class DataSourceConfig {
         return DataSourceBuilder.create()
                 .url("jdbc:sap://a2b43b21-d07a-4f51-bccc-426c6208c476.hana.trial-us10.hanacloud.ondemand.com:443/?autocommit=false")
                 .username("dbadmin")
-                .password("Ebooking-hana-db-0@#%%")
+                .password("test")
                 .driverClassName("com.sap.cloud.db.jdbc.Driver")
                 .build();
     }
